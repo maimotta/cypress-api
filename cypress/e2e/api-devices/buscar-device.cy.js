@@ -30,7 +30,7 @@ describe('GET /objects/:id - Buscar um device', () => {
       expect(response.body.data.year).equal(2019)
       expect(response.body.data.price).equal(1849.99)
       expect(response.body.data['CPU model']).equal('Intel Core i9')
-      expect(response.body.data['Hard disk size']).equal('1TB')
+      expect(response.body.data['Hard disk size']).equal('1 TB')
     })
 
   })
